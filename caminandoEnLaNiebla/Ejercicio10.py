@@ -9,3 +9,5 @@ elif primer_numero >=0 and segundo_numero <=0:
     print ("El segundo numero es negativo")
 else:
     print ("Los dos numeros son negativos")
+
+   
