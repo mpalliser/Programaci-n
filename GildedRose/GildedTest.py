@@ -8,5 +8,5 @@ if __name__ == '__main__':
     print(item)
     # test update_quality
     for dia in range(1, 10):
-        item.update_quality()
+        item.updateQuality()
         print(item)

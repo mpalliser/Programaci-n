@@ -1,9 +1,8 @@
-
 from GildedRose import *
 
 if __name__ == '__main__':
     #Caso valido
-    item = AgedBrie("Aged Brie", 2 , 0)
+    item = Conjured("Mana Cake", 3 , 30)
     #chequeo herencia __repr__
     print(item)
     #test update_quality
