@@ -50,6 +50,19 @@ class Sulfuras(NormalItem):
 
     def update_quality(self):
         assert self.quality == 80, "La quality de %s tiene que ser 80" % self.__class__.__name__
-        
+
+
+class AgedBrie(NormalItem):
+
+
+    def __init__(self, name, sell_in, quality):
+        NormalItem.__init__(self, name, sell_in, quality)
+
+    def update_quality(self):
+        self.quality += 1
+
+
+
+
 
 
