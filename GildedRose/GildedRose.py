@@ -28,7 +28,7 @@ class NormalItem(Item, Interfaz):
         self.sell_in = self.sell_in - 1
 
     def setQuality(self, valor):
-        assert 0 <= self.quality <= 50, "quality de %s fuera de rango" % self.__class__.__name__
+        assert self.quality <= 50, "quality de %s fuera de rango" % self.__class__.__name__
         if self.quality + valor > 50:
             self.quality = 50
         elif self.quality + valor >= 0:
