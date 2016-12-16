@@ -3,7 +3,7 @@ from GildedRose import *
 
 if __name__ == '__main__':
 
-    item = NormalItem("Elixir of the Mongoose", 5, 50)
+    item = NormalItem("Elixir of the Mongoose", 5, 7)
     # chequeo herencia __repr__
     print(item)
     # test update_quality
