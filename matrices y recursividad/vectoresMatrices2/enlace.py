@@ -12,7 +12,5 @@ if __name__ == "__main__":
     for numero in matrizNumerosDni:        
         matrizDNI.append(obtenerLetraDni(numero))
     print (matrizDNI)        
-    #ficheroDnis = "./test.txt"
 
-    #crearFicheroDNI(ficheroDnis, matrizNumerosDni)
     
